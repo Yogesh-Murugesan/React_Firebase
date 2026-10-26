@@ -1,18 +1,16 @@
 # React OAuth & Firebase Push Notifications
 
-A learning project built using React, Vite, Firebase Cloud Messaging (FCM), React Router, React Toastify, and Bootstrap.
+A learning project built using React, Vite, Firebase Cloud Messaging (FCM), React Toastify, and Bootstrap.
 
 ## Features
 
 - React-based user interface
-- Login and Register pages
 - Client-side routing using React Router
 - Lazy loading of pages
 - Firebase Cloud Messaging integration
 - Foreground notifications using React Toastify
 - Background notifications using a service worker
 - Responsive Bootstrap dashboard
-- React Hook Form example for form validation
 
 ## Tech Stack
 
@@ -20,14 +18,12 @@ A learning project built using React, Vite, Firebase Cloud Messaging (FCM), Reac
 | ------------------------ | ---------------------------------------------- |
 | React                    | Builds reusable UI components                  |
 | React DOM                | Renders React components in the browser        |
-| Vite                     | Development server and production build        |
-| React Router             | Handles page navigation                        |
+| Vite                     | Development server and production build        |                     |
 | Firebase                 | Provides Firebase services                     |
 | Firebase Cloud Messaging | Handles browser push messages                  |
 | Service Worker           | Handles background push notifications          |
 | React Toastify           | Displays foreground notifications              |
 | Bootstrap                | Responsive layouts, cards, buttons, and forms  |
-| React Hook Form          | Manages form values and validation in the demo |
 
 ## Installation
 
@@ -88,13 +84,6 @@ A trusted sender, such as a backend using the Firebase Admin SDK, must send mess
 
 ## React Hook Form Demo
 
-The sample dashboard demonstrates:
-
-- `useForm()`
-- `register()`
-- `handleSubmit()`
-- Required-field validation
-- Email validation
 
 The demo form only displays the submitted data locally. It does not save data to a backend.
 
@@ -102,9 +91,6 @@ The demo form only displays the submitted data locally. It does not save data to
 
 ```text
 src/
-├── auth_Components/
-│   ├── Login.jsx
-│   └── Register.jsx
 ├── Notification/
 │   └── firebase.js
 ├── dashboard/
